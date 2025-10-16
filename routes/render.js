@@ -6,14 +6,14 @@ module.exports = router;
 var db = require('./db');
 
 
-var faculty = require('./faculty/faculty'); 
-var subject = require('./subject/subject'); 
-var rooms = require('./rooms/rooms'); 
-var period = require('./periods/period'); 
-var enforce = require('./enforce/enforceValue'); 
-var user = require('./user/user'); 
-var genTimeTalbe = require('./timeTable/genTimeTable');
-var timeTable = require('./timeTable/timeTable');
+var faculty = require('./faculty/faculty.js'); 
+var subject = require('./subject/subject.js'); 
+var rooms = require('./rooms/rooms.js'); 
+var period = require('./periods/period.js'); 
+var enforce = require('./enforce/enforceValue.js'); 
+var user = require('./user/user.js'); 
+var genTimeTalbe = require('./timeTable/genTimeTable.js');
+var timeTable = require('./timeTable/timeTable.js');
 
 
  /* Importing all modules */
